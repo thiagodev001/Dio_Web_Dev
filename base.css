@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 84%; 
+}
+
+.menu {
+    width: 16%;
+    background-color: #0f1a2b;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.menu img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: auto 0;          
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;               
+}
+.menu a{
+    color: #c8fd2e;
+    text-decoration: none;
+    font-size: x-large;
+    transition: all 0.3s ease;
+}
+.menu a:hover{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.header img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.content {
+    background-color: #056c6c;
+    min-height: 300px;
+    padding: 20px;
+    color: #92ff2b;
+}
+.footer {
+    background-color: #4a5158;
+    min-height: 80px;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#par{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 400px;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.15);
+
+}
+tbody tr:hover{
+    background-color: #009879;
+    color:#ffffff;
+    font-weight: bold;
+}
+#cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+fieldset{
+    width: 100%;
+    margin-bottom: 3%;
+    justify-items: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-start; 
+    gap: 10px;
+}
+
+.form-group label {
+    width: 110px; 
+    text-align: right;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    flex: 1; 
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
